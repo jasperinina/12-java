@@ -14,12 +14,12 @@ class TestIntegerDecode {
 
     @Test
     void testHexadecimal() {
-        assertEquals(26, Integer.decode("0x1A"));
+        assertEquals(77, Integer.decode("0x4D"));
     }
 
     @Test
     void testOctal() {
-        assertEquals(10, Integer.decode("012"));
+        assertEquals(7, Integer.decode("021"));
     }
 
     @Test
